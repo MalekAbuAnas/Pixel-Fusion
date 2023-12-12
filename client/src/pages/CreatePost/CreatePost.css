@@ -1,0 +1,15 @@
+.preview{
+    position: relative;
+    background: #f3f3f3;
+    border: 1px solid #adadad;
+    width: 50%;
+    max-width: 220px;
+    height: 220px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-dark-white{
+    background: #f3f3f3;
+}

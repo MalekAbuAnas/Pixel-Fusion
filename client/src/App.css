@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root{
     /*-- color --*/
-    --c-black: #000;
+    --c-black: #370617;
     --c-white: #fff;
 
     /*-- weight --*/
@@ -21,6 +21,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    outline: none;
     font-family: 'Poppins', sans-serif;
 }
 .Button-black{
@@ -34,6 +35,69 @@
     transition: 0.5s;
 }
 .Button-black:hover{
+    background: none;
+    border: 1px solid var(--c-black);
+    color: var(--c-black);
+}
+.Button-outline{
+    height: 40px;
+    width: fit-content;
+    padding: 0 calc(var(--padding-primary)/2);
+    border-radius: 5px;
+    border: 1px solid var(--c-black);
+    background: none;
+    color: var(--c-black);
+    transition: 0.5s;
+}
+.Button-outline:hover{
+    background: var(--c-black);
+    border: 1px solid rgba(0,0,0,0);
+    color: var(--c-white);
+}
+.Button-outline-fs{
+    height: 40px;
+    width: 100%;
+    max-width: 500px;
+    padding: 0 calc(var(--padding-primary)/2);
+    border-radius: 5px;
+    border: 1px solid var(--c-black);
+    background: none;
+    color: var(--c-black);
+    transition: 0.5s;
+}
+.Button-outline-fs:hover{
+    background: var(--c-black);
+    border: 1px solid rgba(0,0,0,0);
+    color: var(--c-white);
+}
+.Button-outline-sm{
+    height: 30px;
+    width: fit-content;
+    padding: 0 calc(var(--padding-primary)/3);
+    border-radius: 5px;
+    border: 1px solid var(--c-black);
+    background: none;
+    color: var(--c-black);
+    font-size: 13px;
+    transition: 0.5s;
+}
+.Button-outline-sm:hover{
+    background: var(--c-black);
+    border: 1px solid rgba(0,0,0,0);
+    color: var(--c-white);
+}
+.Button-black-fs{
+    height: 40px;
+    width: 100%;
+    max-width: 500px;
+    padding: 0 calc(var(--padding-primary)/2);
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0);
+    background: var(--c-black);
+    color: var(--c-white);
+    transition: 0.5s;
+}
+.Button-black-fs:hover{
     background: none;
     border: 1px solid var(--c-black);
     color: var(--c-black);
